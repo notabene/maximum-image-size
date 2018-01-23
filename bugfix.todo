@@ -1,0 +1,12 @@
+Bug:
+  the extension applies to all images, even if they're small, and it breaks in various circumstances (github for instance)
+
+Bugfix:
+  1. add Javascript
+    1.1. list images
+    1.2. on resize (with throttle)
+      * remove class maximum-image-size-toobig
+      * find only images that are higher/wider than viewport
+      * give them a class maximum-image-size-toobig
+  2. CSS
+    replace `img` with `img.maximum-image-size-toobig`
