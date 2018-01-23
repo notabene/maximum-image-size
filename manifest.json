@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "Maximum Image Size",
+	"description": "This maximum image size Webextension deals with smaller screens (smaller than your average web designer, anyway) by resizing images so that they fit in your viewport.",
+	"version": "1.0",
+	"applications": {
+		"gecko": {
+			"id": "maximum-image-size@nota-bene.org"
+		}
+	},
+
+	"permissions": [
+		"activeTab"
+	],
+
+	"content_scripts": [
+		{
+			"all_frames":true,
+			"matches": ["<all_urls>"],
+			"css": ["/maximum-image-size.css"]
+		}
+	]
+}
