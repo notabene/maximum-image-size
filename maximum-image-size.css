@@ -1,6 +1,8 @@
 /*maximum-image-size.css*/
 
 img {
+	width:auto;
+	height:auto;
 	max-width:96% !important;
-	max-height: 96vh !important;
+	max-height: 90vh !important;
 }
