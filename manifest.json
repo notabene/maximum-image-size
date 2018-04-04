@@ -24,7 +24,8 @@
 		{
 			"all_frames":true,
 			"matches": ["<all_urls>"],
-			"css": ["/maximum-image-size.css"]
+			"css": ["/injected/maximum-image-size.css"],
+			"js": ["/injected/maximum-image-size.js"]
 		}
 	]
 }

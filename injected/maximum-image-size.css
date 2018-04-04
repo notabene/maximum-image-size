@@ -1,6 +1,4 @@
-/*maximum-image-size.css*/
-
-img {
+.maximum-image-size-toobig {
 	width:auto;
 	height:auto;
 	max-width:96% !important;
