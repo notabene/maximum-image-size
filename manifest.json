@@ -3,7 +3,7 @@
 
 	"name": "Maximum Image Size",
 	"description": "This maximum image size Webextension deals with smaller screens (smaller than your average web designer, anyway) by resizing images so that they fit in your viewport.",
-	"version": "1.0",
+	"version": "1.1",
 	"applications": {
 		"gecko": {
 			"id": "maximum-image-size@nota-bene.org"
